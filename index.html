@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container mx-auto max-w-7xl px-5">
+        <div class="md:flex justify-between mt-12">
+          <div class="text-2xl font-bold">
+            <span class="">Fudo</span><span class="text-red-500">.</span>
+          </div>
+          <div class="">
+            <ul class="flex space-x-8 items-center">
+              <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+              <li>
+                <a href="products.html" class="hover:text-red-500">About Us</a>
+              </li>
+              <li>
+                <a href="detail.html" class="hover:text-red-500">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="space-x-7 items-center flex">
+            <button>
+              <svg
+                class=""
+                width="30px"
+                height="30px"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.25 3.125H3.65424C4.13263 3.125 4.37183 3.125 4.56628 3.21174C4.73771 3.28821 4.88415 3.41138 4.98886 3.56717C5.10763 3.74388 5.14862 3.97954 5.23058 4.45085L5.76087 7.5M5.76087 7.5L6.99173 14.5774C7.17091 15.6077 7.2605 16.1228 7.52583 16.4939C7.75945 16.8207 8.08606 17.0695 8.46311 17.208C8.89133 17.3654 9.41176 17.315 10.4526 17.2143L23.9832 15.9048C25.0046 15.806 25.5152 15.7566 25.9012 15.5259C26.2411 15.3227 26.513 15.0232 26.6825 14.6652C26.875 14.2589 26.875 13.7458 26.875 12.7197V11.2317C26.875 10.1412 26.875 9.5959 26.665 9.17455C26.4802 8.80377 26.1848 8.49953 25.8197 8.30385C25.4047 8.08148 24.8597 8.06535 23.7697 8.03308L5.76087 7.5Z"
+                  stroke="#262F56"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="10.625"
+                  cy="23.75"
+                  r="2.5"
+                  stroke="#262F56"
+                  stroke-width="1.8"
+                />
+                <circle
+                  cx="22.5"
+                  cy="23.75"
+                  r="2.5"
+                  stroke="#262F56"
+                  stroke-width="1.8"
+                />
+              </svg>
+            </button>
+            <a
+              href="singin.html"
+              class="
+                border border-red-500
+                rounded-md
+                p-2
+                hover:bg-red-500
+                font-bold
+              "
+              >Sign up</a
+            >
+            <a
+              href="singup.html"
+              class="
+                border border-red-500
+                rounded
+                p-2
+                hover:bg-red-500
+                font-bold
+              "
+              >Sign in</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="">
+      <div class="container mx-auto pt-10 px-5 max-w-7xl">
+        <div class="grid md:grid-cols-2">
+          <div>
+            <span
+              class="
+                inline-block
+                border
+                bg-red-200
+                rounded
+                md:w-[120px] md:text-left
+                text-center
+                font-bold
+                text-red-500
+                p-2
+              "
+              >Quality Food</span
+            >
+            <h1 class="text-4xl font-bold md:text-7xl w-[620px] pt-5">
+              Fastest <span class="text-red-500 py-5">Delivery</span> & Easy
+              <span class="text-red-500 py-5">Pickup</span>
+            </h1>
+            <p class="py-6">
+              Best cooks and best delivery guys all at your service. Hot tasty
+              food will reach you in 60 minutes.
+            </p>
+            <form action="" class="flex">
+              <input
+                class="p-3 border border-red-500 rounded-l"
+                type="text"
+                placeholder="Enter your delivery location"
+              />
+              <button class="bg-red-500 boder-0 rounded-r cursor-pointer px-6">
+                Discover
+              </button>
+            </form>
+          </div>
+          <div class="text-center hidden md:block">
+            <img
+              src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Images_vmqjqz.png"
+              alt=""
+              style="margin: auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container mx-auto max-w-7xl px-5">
+        <div class="py-6">
+          <h1 class="text-3xl font-bold md:text-6xl text-center">
+            Our Popular Dishes
+          </h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqut enim ad minim
+          </p>
+        </div>
+        <div class="py-6">
+          <div class="grid md:grid-cols-3 gap-8 pt-10" id="product">
+            <div
+              class="
+                column
+                text-center
+                py-2
+                shadow
+                transition
+                ease-in-out
+                duration-300
+                hover:shadow-xl hover:cursor-pointer
+                group
+                rounded-md
+              "
+            >
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Mask_Group_bdhymu.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+            <div class="column text-center py-2">
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179838/Mask_Group_1_lrhbwh.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />
+                  30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+            <div class="column text-center py-2">
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179838/Mask_Group_2_fjvtyg.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />
+                  30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+
+            <div class="column text-center py-2">
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179838/Mask_Group_3_vxwunh.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+            <div class="column text-center py-2">
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179838/Mask_Group_4_anh2pa.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />
+                  30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+            <div class="column text-center py-2">
+              <a href=""
+                ><img
+                  class="pl-11 rounded"
+                  src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Mask_Group_5_i0q4wg.png"
+                  alt=""
+              /></a>
+              <a href=""
+                ><p class="font-bold text-red-500 py-2">
+                  Big and Juicy Wagyu Beef Cheeseburger
+                </p></a
+              >
+              <div class="flex space-x-6 ml-11 items-start">
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179840/Vector_ege6nk.png"
+                    alt=""
+                  />
+                  30 Minutes</span
+                >
+                <span class="flex"
+                  ><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_1_s5jxp1.png"
+                    alt=""
+                  /><img
+                    src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179839/Vector_2_xdnkny.png"
+                    alt=""
+                  />
+                  Snack</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto max-w-7xl px-5">
+        <div class="justify-between items-center flex">
+          <h1 class="font-bold text-3xl md:text-6xl">Categories</h1>
+          <a
+            class="
+              hidden
+              border-red-500
+              md:block
+              border-2
+              rounded
+              p-2
+              text-red-500
+              hover:bg-slate-200
+            "
+            href=""
+            >View All Categories</a
+          >
+        </div>
+        <div
+          class="
+            grid grid-cols-2
+            md:text-left
+            text-center
+            lg:grid-cols-6
+            md:grid-cols-3
+            gap-8
+            py-10
+          "
+        >
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179837/image_25_fsq2x8.png" alt="" />
+            <p class="font-bold py-5">Breakfast</p>
+          </div>
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179836/image_20_jbcfle.png" alt="" />
+            <p class="font-bold py-5 ml-2">Vegan</p>
+          </div>
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179836/image_21_b5xpsr.png" alt="" />
+            <p class="font-bold py-5 ml-2">Meat</p>
+          </div>
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179836/image_22_egiekh.png" alt="" />
+            <p class="font-bold py-5 ml-2">Dessert</p>
+          </div>
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179836/image_23_gpwlsm.png" alt="" />
+            <p class="font-bold py-5 ml-2">Lunch</p>
+          </div>
+          <div class="column">
+            <img class="px-2.5" src="https://res.cloudinary.com/f-m-fashion/image/upload/v1655179836/image_24_wxbkie.png" alt="" />
+            <p class="font-bold py-5 ml-2">Chocolate</p>
+          </div>
+        </div>
+        <a
+          href=""
+          class="
+            block
+            md:hidden
+            border border-2
+            rounded-md
+            px-4
+            py-5
+            mt-10
+            bored-red-600
+            text-[#F54748]
+            hover:bg-red-500 hover:text-white
+            text-center text-2xl
+          "
+          >View All Categories</a
+        >
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto max-w-7xl px-5">
+        <div class="text-center">
+          <h1 class="text-center text-6xl font-bold">Contact us</h1>
+        </div>
+        <div>
+          <form action="">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="form-group">
+                <label class="block" for="">NAME</label>
+                <hr />
+                <input
+                  class="p-5 w-full"
+                  type="text"
+                  placeholder="Enter your name..."
+                />
+              </div>
+              <div class="form-group">
+                <label for="">EMAIL ADDRESS</label>
+                <hr />
+                <input
+                  class="p-5 w-full"
+                  type="text"
+                  placeholder="Your email address..."
+                />
+              </div>
+              <div class="form-group">
+                <label for="">SUBJECT</label>
+                <hr />
+                <input
+                  class="p-5 w-full"
+                  type="text"
+                  placeholder="Enter subject..."
+                />
+              </div>
+              <div class="form-group">
+                <label for="">ENQUIRY TYPE</label>
+                <hr />
+                <select class="border w-full h-[62px]" name="" id="">
+                  <option value="">Advertising</option>
+                  <option value="">Advertising</option>
+                </select>
+              </div>
+              <div class="md:col-span-2">
+                <label for="">MESSAGES</label>
+                <hr />
+                <input
+                  class="
+                    block
+                    border
+                    px-4
+                    py-3
+                    rounded
+                    border-gray-500
+                    w-full
+                    h-[200px]
+                  "
+                  type="text"
+                  placeholder="Enter your messages..."
+                />
+              </div>
+              <div class="md:col-span-2 my-3 text-center md:content-center">
+                <button
+                  class="
+                    inline-block
+                    border
+                    px-4
+                    py-3
+                    rounded
+                    border-gray-500
+                    w-28
+                    space-x-11
+                    bg-black
+                    text-white
+                    items-center
+                  "
+                  type="button"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container mx-auto px-5 max-w-7xl py-10 border-t border-black">
+        <div class="justify-between text-center items-start md:flex">
+          <div class="text-2xl font-bold md:mr-auto">
+            <span class="">Fudo</span><span class="text-red-500">.</span>
+          </div>
+          <ul class="md:flex md:space-x-8 space-y-5 md:space-y-0 items-center">
+            <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+            <li>
+              <a href="products.html" class="hover:text-red-500">Products</a>
+            </li>
+            <li>
+              <a href="detail.html" class="hover:text-red-500">About Us</a>
+            </li>
+            <li>
+              <a href="index.html" class="hover:text-red-500">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
